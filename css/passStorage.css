@@ -1,0 +1,11 @@
+.footer{
+    height: 3em;
+    display: flex;
+    background-color: #343a40;
+   align-items: center;
+   justify-content: center;
+}
+
+.footer a {
+    color: white;
+}
