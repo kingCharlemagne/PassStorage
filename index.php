@@ -1,7 +1,7 @@
 <?php
 session_start();
-require_once('inc/bddLog.php');
-require_once('traitement/connexion_traitement.php');
+require 'inc/bddLog.php';
+require 'traitement/connexion_traitement.php';
 
 $issetUser=$bdd->query('SELECT id FROM user');
 $results=$issetUser->fetch();

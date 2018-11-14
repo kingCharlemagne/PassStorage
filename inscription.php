@@ -1,6 +1,6 @@
 <?php
-require_once('inc/bddLog.php');
-require_once ('traitement/inscription_traitement.php')
+require 'inc/bddLog.php';
+require_once 'traitement/inscription_traitement.php';
 ?>
 
 <!DOCTYPE html>

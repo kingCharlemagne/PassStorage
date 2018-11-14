@@ -4,11 +4,11 @@ session_start();
 if (isset($_SESSION['logStatus']) AND $_SESSION['logStatus'] === 'connect') {
 
     include('inc/bddLog.php');
-    require_once('traitement/newPass_traitement.php');
-    require_once('traitement/searchPass_traitement.php');
-    require_once('traitement/updatePass_traitement.php');
-    require_once('traitement/deletePass_traitement.php');
-    require_once ('traitement/deleteBdd_traitement.php');
+    require 'traitement/newPass_traitement.php';
+    require 'traitement/searchPass_traitement.php';
+    require 'traitement/updatePass_traitement.php';
+    require 'traitement/deletePass_traitement.php';
+    require 'traitement/deleteBdd_traitement.php';
 
 
 //déconnexion
